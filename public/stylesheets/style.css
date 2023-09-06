@@ -1,0 +1,14 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(4, max-content);
+  grid-column-gap: 10px;
+}
